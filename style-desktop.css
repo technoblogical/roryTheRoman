@@ -1,0 +1,163 @@
+/* =Upper Widgets
+-------------------------------------------------------------- */
+#upper-widgets{
+	color:#f00;
+	text-align:center;
+}
+#upper-widgets div.widget-title{
+    color:#808;
+}
+#upper-widgets li{
+	background:#ffff00;
+	border-radius:50px;
+	display:inline-block;
+	width:260px;
+}
+/* =End of Upper Widgets
+-------------------------------------------------------------- */
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* =Header
+-------------------------------------------------------------- */
+#header{
+	margin:0px 50px;
+	background:#eee;
+}
+#header-image{
+	background-position: top center;
+}
+/* =End of Header
+-------------------------------------------------------------- */
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* =Nav
+-------------------------------------------------------------- */
+#nav{
+    margin:0px 50px;
+    padding:0px 150px;
+    text-align: center;
+}
+#nav a{
+	color:#ff0;
+	font-family: serif;
+	font-size: 150%;
+	font-weight:900;
+	text-decoration: none;
+}
+#nav li{
+	display:inline-block;
+	padding:1em;
+	position:relative;
+	width:150px;
+}
+#nav li>ul{
+	background:rgba(16,16,16,0.95);
+	display:none;
+	left:0;
+	top:100%;
+	position:absolute;
+	z-index:+1;
+}
+#nav li:hover>ul{
+	display:block;
+}
+#nav li>ul>li>ul{
+	background:rgba(32,32,32,0.95);
+	left:100%;
+	top:0;
+}
+#nav li>ul>li>ul>li>ul{background:rgba(48,48,48,0.95);}
+#nav li>ul>li>ul>li>ul>li>ul{background:rgba(64,64,64,0.95);}
+/* =End of Nav
+-------------------------------------------------------------- */
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* =Article
+-------------------------------------------------------------- */
+#article{
+	background: #eee;
+	margin:0px 50px;
+}
+#left-sidebar{
+	float:left;
+	width:260px;
+}
+#right-sidebar{
+	float:right;
+	width:260px;
+}
+#article .widget{
+  background:rgba(32,32,32,0.25);
+  border:5px solid #888;
+  border-radius:25px;
+  box-shadow: 5px 5px 10px #000;
+}
+/* =End of Article
+-------------------------------------------------------------- */
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* =bottom-aside
+-------------------------------------------------------------- */
+#bottom-aside{
+	background:url("images/green_cup.png");
+	border-top: 5px solid #800;
+	padding:5px;
+}
+#bottom-aside .widget{
+	color:000;
+	background:rgba(0,0,0,0.03);
+}
+#bottom-aside div.widget-title{
+	color:#080;
+}
+#desktop-not-widebar{
+	text-align:center;
+}
+#desktop-not-widebar li{
+	display:inline-block;
+	width:250px;
+}
+/* =End of bottom-aside
+-------------------------------------------------------------- */
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* =Footer
+-------------------------------------------------------------- */
+#footer{
+    background:#000;
+    color:#aaa;
+}
+/* =End of Footer
+-------------------------------------------------------------- */
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* =Lower Widgets
+-------------------------------------------------------------- */
+#lower-widgets div.widget-title{
+    color:#f00;
+}
+#lower-widgets{
+	color:#008;
+	text-align:center;
+}
+#lower-widgets li{
+	background:#ffff00;
+	border-radius:50px;
+	display:inline-block;
+	width:260px;
+}
+/* =End of Lower Widgets
+-------------------------------------------------------------- */
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* =Generic CSS
+-------------------------------------------------------------- */
+/* =End of Generic CSS
+-------------------------------------------------------------- */

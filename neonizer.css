@@ -1,0 +1,194 @@
+@import url(http://fonts.googleapis.com/css?family=Delius);
+/*These classes make all the neon colors. they can be specified in WordPress via classes.*/
+.red-neon-text{
+	margin:0.6em !important;
+	text-shadow: 0 0 0.1em #fff,
+							 0 0 0.2em #fff,
+							 0 0 0.3em #fff,
+							 0 0 0.4em #fff,
+							 0 0 0.6em #f77,
+							 0 0 0.8em #f00,
+							 0 0 1.0em #f00,
+							 0 0 1.2em #f00 !important;
+}
+.red-neon-box{
+	box-shadow: 0 0 0.1em #fff,
+	            0 0 0.2em #fff,
+	            0 0 0.3em #fff,
+	            0 0 0.4em #fff,
+	            0 0 0.6em #f77,
+	            0 0 0.8em #f00,
+	            0 0 1.0em #f00,
+	            0 0 1.2em #f00,
+	            0 0 0.1em #fff inset,
+	            0 0 0.2em #fff inset,
+	            0 0 0.3em #fff inset,
+	            0 0 0.4em #fff inset,
+	            0 0 0.6em #f77 inset,
+	            0 0 0.8em #f00 inset,
+	            0 0 1.0em #f00 inset,
+	            0 0 1.2em #f00 inset !important;
+}
+.green-neon-box{
+	margin:0.6em !important;
+	box-shadow: 0 0 0.1em #fff,
+	            0 0 0.2em #fff,
+	            0 0 0.3em #fff,
+	            0 0 0.4em #fff,
+	            0 0 0.6em #7f7,
+	            0 0 0.8em #0f0,
+	            0 0 1.0em #0f0,
+	            0 0 1.2em #0f0,
+	            0 0 0.1em #fff inset,
+	            0 0 0.2em #fff inset,
+	            0 0 0.3em #fff inset,
+	            0 0 0.4em #fff inset,
+	            0 0 0.6em #7f7 inset,
+	            0 0 0.8em #0f0 inset,
+	            0 0 1.0em #0f0 inset,
+	            0 0 1.2em #0f0 inset !important;
+}
+.green-neon-text{
+	margin:0.6em !important;
+	text-shadow: 0 0 0.1em #fff,
+	             0 0 0.2em #fff,
+	             0 0 0.3em #fff,
+	             0 0 0.4em #fff,
+	             0 0 0.6em #7f7,
+	             0 0 0.8em #0f0,
+	             0 0 1.0em #0f0,
+	             0 0 1.2em #0f0 !important;
+}
+.blue-neon-box{
+	box-shadow: 0 0 0.1em #fff,
+	            0 0 0.2em #fff,
+	            0 0 0.3em #fff,
+	            0 0 0.4em #fff,
+	            0 0 0.6em #77f,
+	            0 0 0.8em #00f,
+	            0 0 1.0em #00f,
+	            0 0 1.2em #00f,
+	            0 0 0.1em #fff inset,
+	            0 0 0.2em #fff inset,
+	            0 0 0.3em #fff inset,
+	            0 0 0.4em #fff inset,
+	            0 0 0.6em #77f inset,
+	            0 0 0.8em #00f inset,
+	            0 0 1.0em #00f inset,
+	            0 0 1.2em #00f inset !important;
+}
+.blue-neon-text{
+	text-shadow: 0 0 0.1em #fff,
+	             0 0 0.2em #fff,
+	             0 0 0.3em #fff,
+	             0 0 0.4em #fff,
+	             0 0 0.6em #77f,
+	             0 0 0.8em #00f,
+	             0 0 1.0em #00f,
+	             0 0 1.2em #00f !important;
+}
+.yellow-neon-box{
+	box-shadow: 0 0 0.1em #fff,
+	            0 0 0.2em #fff,
+	            0 0 0.3em #fff,
+	            0 0 0.4em #fff,
+	            0 0 0.6em #ff7,
+	            0 0 0.8em #ff0,
+	            0 0 1.0em #ff0,
+	            0 0 1.2em #ff0,
+	            0 0 0.1em #fff inset,
+	            0 0 0.2em #fff inset,
+	            0 0 0.3em #fff inset,
+	            0 0 0.4em #fff inset,
+	            0 0 0.6em #ff7 inset,
+	            0 0 0.8em #ff0 inset,
+	            0 0 1.0em #ff0 inset,
+	            0 0 1.2em #ff0 inset !important;
+}
+.yellow-neon-text{
+	text-shadow: 0 0 0.1em #fff,
+	             0 0 0.2em #fff,
+	             0 0 0.3em #fff,
+	             0 0 0.4em #fff,
+	             0 0 0.6em #ff7,
+	             0 0 0.8em #ff0,
+	             0 0 1.0em #ff0,
+	             0 0 1.2em #ff0 !important;
+}
+.fuchsia-neon-box{
+	box-shadow: 0 0 0.1em #fff,
+	            0 0 0.2em #fff,
+	            0 0 0.3em #fff,
+	            0 0 0.4em #fff,
+	            0 0 0.6em #f7f,
+	            0 0 0.8em #f0f,
+	            0 0 1.0em #f0f,
+	            0 0 1.2em #f0f,
+	            0 0 0.1em #fff inset,
+	            0 0 0.2em #fff inset,
+	            0 0 0.3em #fff inset,
+	            0 0 0.4em #fff inset,
+	            0 0 0.6em #f7f inset,
+	            0 0 0.8em #f0f inset,
+	            0 0 1.0em #f0f inset,
+	            0 0 1.2em #f0f inset !important;
+}
+.fuchsia-neon-text{
+	margin:0.6em !important;
+	text-shadow: 0 0 0.1em #fff,
+							 0 0 0.2em #fff,
+							 0 0 0.3em #fff,
+							 0 0 0.4em #fff,
+							 0 0 0.6em #f7f,
+							 0 0 0.8em #f0f,
+							 0 0 1.0em #f0f,
+							 0 0 1.2em #f0f !important;
+}
+.aqua-neon-box{
+	box-shadow: 0 0 0.1em #fff,
+	            0 0 0.2em #fff,
+	            0 0 0.3em #fff,
+	            0 0 0.4em #fff,
+	            0 0 0.6em #7ff,
+	            0 0 0.8em #0ff,
+	            0 0 1.0em #0ff,
+	            0 0 1.2em #0ff,
+	            0 0 0.1em #fff inset,
+	            0 0 0.2em #fff inset,
+	            0 0 0.3em #fff inset,
+	            0 0 0.4em #fff inset,
+	            0 0 0.6em #7ff inset,
+	            0 0 0.8em #0ff inset,
+	            0 0 1.0em #0ff inset,
+	            0 0 1.2em #0ff inset !important;
+}
+.aqua-neon-text{
+	text-shadow: 0 0 0.1em #fff,
+	             0 0 0.2em #fff,
+	             0 0 0.3em #fff,
+	             0 0 0.4em #fff,
+	             0 0 0.6em #7ff,
+	             0 0 0.8em #00f,
+	             0 0 1.0em #00f,
+	             0 0 1.2em #00f !important;
+}
+.aqua-neon-box,
+.red-neon-box,
+.fuchsia-neon-box,
+.green-neon-box,
+.blue-neon-box,
+.yellow-neon-box{
+	border:5px solid #fff !important;
+	border-radius:50px !important;
+	margin:0.6em !important;
+	padding:0.6em !important;
+}
+.aqua-neon-text,
+.red-neon-text,
+.fuchsia-neon-text,
+.green-neon-text,
+.blue-neon-text,
+.yellow-neon-text{
+	margin:0.6em !important;
+	font-family: 'Delius', cursive !important;
+}

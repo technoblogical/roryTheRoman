@@ -1,0 +1,132 @@
+body{
+	background:#000;
+}
+/* =Nav
+-------------------------------------------------------------- */
+#nav{
+    background:#888;
+    display:none;
+}
+#nav a{
+  color:#fff;
+  font-size: 600%;
+  text-decoration: none;
+  text-shadow: 1px 1px #000,
+                   -1px 1px #000,
+                   1px -1px #000,
+                   -1px -1px #000;
+}
+#nav li{
+  display:block;
+}
+#nav ul{
+  padding-left:2em;
+}
+#nav-button{
+	font-size: 400%;
+}
+/* =End of Nav
+-------------------------------------------------------------- */
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* =Upper Widgets
+-------------------------------------------------------------- */
+#mobile-upper-widgets{
+	color:#f00;
+	text-align:center;
+}
+#mobile-upper-widgets div.widget-title{
+    color:#808;
+}
+#mobile-upper-widgets li{
+	background:#ffff00;
+	border-radius:50px;
+	display:block;
+	margin:10px 0px;
+}
+/* =End of Upper Widgets
+-------------------------------------------------------------- */
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* =Header
+-------------------------------------------------------------- */
+#header{
+    background:#fff;
+    border-radius: 50px 50px 0px 0px;
+}
+/* =End of Header
+-------------------------------------------------------------- */
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* =mobile widebar
+-------------------------------------------------------------- */
+/* =End of mobile widebar
+-------------------------------------------------------------- */
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* =Article
+-------------------------------------------------------------- */
+#article{
+    background:#fff;
+    margin-bottom: -1px;
+    margin-top: -1px;
+    padding:50px;
+}
+#article .widget{
+  background:rgba(32,32,32,0.25);
+  border:5px solid #888;
+  border-radius:25px;
+  box-shadow: 5px 5px 10px #000;
+  color:#000;
+}
+/* =End of Article
+-------------------------------------------------------------- */
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* =Footer
+-------------------------------------------------------------- */
+#footer{
+    background:#fff;
+    border-radius:0px 0px 50px 50px;
+    color:#aaa;
+    padding:50px;
+    text-align:center;
+}
+/* =End of Footer
+-------------------------------------------------------------- */
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* =Lower Widgets
+-------------------------------------------------------------- */
+#mobile-lower-widgets{
+	color:#f00;
+	text-align:center;
+}
+#mobile-lower-widgets div.widget-title{
+    color:#808;
+}
+#mobile-lower-widgets li{
+	background:#ffff00;
+	border-radius:50px;
+	display:block;
+	margin:10px 0px;
+}
+/* =End of Lower Widgets
+-------------------------------------------------------------- */
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* =Generic CSS
+-------------------------------------------------------------- */
+.body-part{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+/* =End of Generic CSS
+-------------------------------------------------------------- */

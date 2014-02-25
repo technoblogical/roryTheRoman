@@ -1,0 +1,316 @@
+/*
+Theme Name: roryTheRoman
+Theme URI: http://www.technoblogical.com
+Author: Chris Walker
+Author URI: http://wwww.technoblogical.com
+Description: The everytheme named for the best everyman.
+Version: 1.0
+License: 
+License URI: 
+Tags:neon, black, right sidebar, footer widget
+Text Domain: roryTheRoman
+
+*/
+
+*{
+	border:0px solid transparent;
+    padding:0px;
+	margin:0px;
+	font-family: sans-serif;
+	font-size:14pt;
+}
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    border: 0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 0;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+/* =WordPress Core
+-------------------------------------------------------------- */
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* =Upper Widgets
+-------------------------------------------------------------- */
+/* =End of Upper Widgets
+-------------------------------------------------------------- */
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* =Header
+-------------------------------------------------------------- */
+#company-info{
+    color:#000;
+    margin:0px 50px;
+    text-align:center;
+}
+#company-title{
+    font-size:300%;
+}
+#company-title a{
+    color:#000;
+    font-family: serif;
+    font-size:100%;
+    font-weight:900;
+    text-decoration:none;
+}
+#header{
+    border-radius: 50px 50px 0px 0px;
+}
+/* =End of Header
+-------------------------------------------------------------- */
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* =Nav
+-------------------------------------------------------------- */
+/* =End of Nav
+-------------------------------------------------------------- */
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* =Article
+-------------------------------------------------------------- */
+#article{
+    padding:1em;
+}
+#article h1{
+    font-size: 300%;
+}
+#article h2{
+    font-size: 200%;
+}
+#article h3{
+    font-size: 180%;
+}
+#article h4{
+    font-size: 160%;
+}
+#article h5{
+    font-size: 140%;
+}
+#article h6{
+    font-size: 120%;
+}
+#article h1,
+#article h2,
+#article h3,
+#article h4,
+#article h5,
+#article h6{
+    color:#800;
+    text-align: center;
+}
+#article h1 a,
+#article h2 a,
+#article h3 a,
+#article h4 a,
+#article h5 a,
+#article h6 a{
+    font-size: inherit;
+    color:#800;
+    text-decoration: none;
+}
+#article p{
+    color:000;
+    padding:1em 0;
+    text-indent: 2em;
+}
+#older-button-newer-button{
+    color:#fff;
+    font-family: monospace;
+}
+#older-button-newer-button a{
+    color:#fff;
+    font-family: monospace;
+    text-align: center;
+    text-decoration: none;
+}
+#older-button-newer-button li{
+    background: #000;
+    border-radius: 1em;
+    display:inline-block;
+    padding: 0.5em;
+    max-width: 250px;
+    text-align:center;
+}
+#older-button-newer-button li:nth-child(2n-1){
+    float:right;
+}
+#older-button-newer-button li:only-child{
+    float:left;
+}
+p.the-author-meta{
+    font-size: 50%;
+    padding:0 !important;
+    margin:0 !important;
+}
+p.the-author-meta a{
+    color:#000;
+    font-size: inherit;
+}
+.section ol,
+.section ul{
+    padding-left: 1em;
+}
+.section ol{list-style: upper-roman inside;}
+.section ol ol{list-style: upper-alpha inside;}
+.section ol ol ol{list-style: decimal inside;}
+.section ol ol ol ol{list-style: lower-roman inside;}
+.section ol ol ol ol ol{list-style: lower-alpha inside;}
+.section ul{list-style: square inside;}
+.section ul ul{list-style: circle inside;}
+.section ul ul ul{list-style: disc inside;}
+
+.thumbnail-on-display{
+    background-clip: border-box;
+    background-position: center;
+    background-size: 100px;
+    border:5px solid #888;
+    border-radius:25px;
+    box-shadow: 5px 5px 10px #000;
+    float:right;
+    height: 100px;
+    width: 100px;
+}
+/* =End of Article
+-------------------------------------------------------------- */
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* =bottom-aside
+-------------------------------------------------------------- */
+/* =End of bottom-aside
+-------------------------------------------------------------- */
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* =Footer
+-------------------------------------------------------------- */
+#footer{
+    padding:50px;
+    text-align:center;
+}
+#footer a{
+    color:inherit;
+    text-decoration: none;
+}
+/* =End of Footer
+-------------------------------------------------------------- */
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* =Lower Widgets
+-------------------------------------------------------------- */
+/* =End of Lower Widgets
+-------------------------------------------------------------- */
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* =Generic CSS
+-------------------------------------------------------------- */
+a{
+    color:#00f;
+}
+a:link{
+    color:#00f;
+}
+a:visited{
+    color:#08f;
+}
+a:active{
+    color:#0ff;
+}
+a:hover{
+    color:#0ff;
+}
+li.widget{
+    list-style:none;
+    margin:1em;
+    padding:1em;
+    text-align: left;
+}
+div.widget-title{
+    font-family: serif;
+    font-size:150%;
+    font-weight:900;
+    text-align: center;
+}
+/* =End of Generic CSS
+-------------------------------------------------------------- */
