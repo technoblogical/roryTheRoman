@@ -5,6 +5,12 @@
 		<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-mobile.css">
 		<!-- <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/neonizer.css"> -->
+	  <title><?php if ( is_home() ) {
+	      bloginfo('name'); ?> | <?php bloginfo('description');
+	    } else {
+	       wp_title('') ?> | <?php bloginfo('name');
+	    } ?>
+	  </title>
 		<?php wp_head(); ?> 
 	</head>
 	<body>
